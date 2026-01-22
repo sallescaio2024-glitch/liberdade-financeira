@@ -1,1 +1,122 @@
 
+[index.html](https://github.com/user-attachments/files/24787383/index.html)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liberdade Financeira | Guia Definitivo</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:radial-gradient(circle at top,#1b1b1b,#000);
+      color:#fff;
+    }
+    .wrap{
+      max-width:1200px;
+      margin:auto;
+      padding:50px 20px;
+      display:grid;
+      grid-template-columns:1.1fr 0.9fr;
+      gap:40px;
+      align-items:center;
+    }
+    h1{
+      font-size:46px;
+      line-height:1.15;
+      margin:0 0 20px;
+    }
+    h1 span{color:#f5c400}
+    .sub{
+      font-size:18px;
+      color:#ddd;
+      margin-bottom:30px;
+    }
+    ul{list-style:none;padding:0;margin:0 0 30px}
+    ul li{
+      font-size:18px;
+      margin-bottom:16px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .icon{
+      width:28px;height:28px;
+      border-radius:50%;
+      background:#0f5132;
+      display:flex;align-items:center;justify-content:center;
+      font-weight:bold;color:#00ff88;
+    }
+    .cta{
+      display:inline-block;
+      background:linear-gradient(180deg,#ffd84d,#f5c400);
+      color:#000;
+      padding:18px 36px;
+      font-size:24px;
+      font-weight:bold;
+      border-radius:8px;
+      text-decoration:none;
+      box-shadow:0 12px 30px rgba(245,196,0,.45);
+      transition:.2s;
+    }
+    .cta:hover{transform:scale(1.04)}
+    .price{
+      margin-top:12px;
+      font-size:20px;
+      color:#f5c400;
+      font-weight:bold;
+    }
+    .badges{
+      display:flex;gap:18px;
+      margin-top:20px;
+      font-size:14px;color:#ccc;
+    }
+    .product{
+      position:relative;
+      text-align:center;
+    }
+    .product img{
+      max-width:100%;
+      border-radius:10px;
+      box-shadow:0 25px 50px rgba(0,0,0,.65);
+    }
+    .glow{
+      position:absolute;
+      inset:-20px;
+      background:radial-gradient(circle,#f5c40055,transparent 60%);
+      z-index:-1;
+    }
+    @media(max-width:900px){
+      .wrap{grid-template-columns:1fr;text-align:center}
+      ul li{justify-content:center}
+      .badges{justify-content:center;flex-wrap:wrap}
+    }
+  </style>
+</head>
+<body>
+  <section class="wrap">
+    <div>
+      <h1><span>Descubra como controlar</span><br>suas finanças e guardar dinheiro todo mês</h1>
+      <p class="sub">Aprenda o passo a passo para sair do vermelho, eliminar desperdícios e começar a investir mesmo ganhando pouco.</p>
+      <ul>
+        <li><span class="icon">✓</span>Pare de desperdiçar dinheiro</li>
+        <li><span class="icon">✓</span>Saia do aperto financeiro</li>
+        <li><span class="icon">✓</span>Aprenda a guardar de verdade</li>
+      </ul>
+      <a class="cta" href="https://go.hotmart.com/A103927462E" target="_blank">COMPRAR AGORA</a>
+      <div class="price">por apenas R$ 29,90 • acesso imediato</div>
+      <div class="badges">
+        <span>🔒 Pagamento Seguro</span>
+        <span>✅ Garantia Hotmart</span>
+        <span>⚡ Acesso Imediato</span>
+      </div>
+    </div>
+    <div class="product">
+      <div class="glow"></div>
+      <img src="https://via.placeholder.com/420x560?text=Ebook+Liberdade+Financeira" alt="Ebook Liberdade Financeira">
+    </div>
+  </section>
+</body>
+</html>
